@@ -1,0 +1,10 @@
+{application,mymath,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{mymath_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[mymath,mymath_app,mymath_sup]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
