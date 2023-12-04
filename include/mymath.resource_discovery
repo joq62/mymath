@@ -1,0 +1,7 @@
+%% I provide following Resources
+
+%% I provide following Resources 
+-define(LocalResourceTuples,[{mymath,{mymath,node()}}]).
+
+%% I want following resource types
+-define(TargetTypes,[adder,divi]). 
